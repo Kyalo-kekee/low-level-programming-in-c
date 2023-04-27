@@ -1,7 +1,8 @@
-# QUESTIONS
+# 0x00. C - Hello, World
+## QUESTIONS
 
 
-## 0.Preprocessor
+## 0-Preprocessor
 
 Write a script that runs a C file through the preprocessor and save the result into another file.
 
@@ -26,7 +27,7 @@ int main(void)
 }
 ```
 
-- use bash command `export CFILE= main.c 
+- use bash command `export CFILE= main.c` 
 - finally your 0.preprocessor file write the shell script that runs main.c thorugh the preprocessor
 
 ```bash

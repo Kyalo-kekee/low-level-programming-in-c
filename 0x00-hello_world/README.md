@@ -11,7 +11,7 @@ The C file name will be saved in the variable $CFILE
 The output should be saved in the file c.
 
 ### workflow
-- create a file main.c `bash cat main.c`
+- create a file main.c `cat main.c`
 write  c code in main.c
 ```C
 #include <stdio.h>
@@ -27,7 +27,7 @@ int main(void)
 }
 ```
 
-- use bash command `bash export CFILE= main.c` 
+- use bash command `export CFILE= main.c` 
 - finally your 0.preprocessor file write the shell script that runs main.c thorugh the preprocessor
 
 ```bash

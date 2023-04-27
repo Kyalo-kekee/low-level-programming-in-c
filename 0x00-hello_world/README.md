@@ -1,14 +1,14 @@
-#QUESTIONS
+# QUESTIONS
 
 
-#0.Preprocessor
+## 0.Preprocessor
 
-Write a script that runs a C file through the preprocessor and save the result into another file.
+-Write a script that runs a C file through the preprocessor and save the result into another file.
 
 The C file name will be saved in the variable $CFILE
 The output should be saved in the file c.
 ==========================================================
-###workflow
+### workflow
 - create a file main.c `cat main.c`
 write  c code in main.c
 ```C

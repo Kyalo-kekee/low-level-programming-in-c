@@ -50,3 +50,9 @@ in the 1-compile file, write the script to compile script but not link
 #!/bin/bash/
 gcc -c CFIE 
 ```
+# 2. Assembler 
+
+Write a script that generates the assembly code of a C code and save it in an output file.
+
+- The C file name will be saved in the variable $CFILE
+- The output file should be named the same as the C file, but with the extension .s instead of .c.

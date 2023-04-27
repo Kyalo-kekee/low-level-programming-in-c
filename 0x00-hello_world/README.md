@@ -26,12 +26,10 @@ int main(void)
 }
 ```
 
-- use shell command `shell export CFILE= main.c 
+- use bash command `export CFILE= main.c 
 - finally your 0.preprocessor file write the shell script that runs main.c thorugh the preprocessor
 
 ```bash
 #!/bin/bash 
-
 gcc -E CFILE -o c
-
-=======================================================================================
+```

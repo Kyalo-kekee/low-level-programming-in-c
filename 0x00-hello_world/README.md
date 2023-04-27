@@ -24,7 +24,7 @@ int main(void)
 {
     return (0);
 }
-
+```
 
 - use shell command `shell export CFILE= main.c 
 - finally your 0.preprocessor file write the shell script that runs main.c thorugh the preprocessor

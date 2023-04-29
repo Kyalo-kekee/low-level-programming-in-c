@@ -48,7 +48,7 @@ in the 1-compile file, write the script to compile script but not link
 
 ```
 #!/bin/bash/
-gcc -c CFIE 
+gcc -c CFILE 
 ```
 # 2. Assembler 
 
@@ -56,3 +56,14 @@ Write a script that generates the assembly code of a C code and save it in an ou
 
 - The C file name will be saved in the variable $CFILE
 - The output file should be named the same as the C file, but with the extension .s instead of .c.
+
+## workflow 
+
+write a bash script that exports main.c to a variable CFILE. `export CFILE=main.c`
+
+then in 2-assembler file write the bash script that generates assembly code
+
+```
+#!/bin/bash/
+gcc -S CFILE 
+```
